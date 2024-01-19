@@ -5,12 +5,12 @@ import { PropsWithChildren } from 'react';
 import 'styles/main.css';
 
 const meta = {
-  title: 'Next.js Subscription Starter',
-  description: 'Brought to you by Vercel, Stripe, and Supabase.',
+title: 'RWPRO STRIPE DEMO',
+  description: 'Brought to you by Aaron Janes,.',
   cardImage: '/og.png',
   robots: 'follow, index',
   favicon: '/favicon.ico',
-  url: 'https://subscription-starter.vercel.app',
+  url: '',
   type: 'website'
 };
 
@@ -56,7 +56,7 @@ export default function RootLayout({
           >
             {children}
           </main>
-          <Footer />
+          {/*<Footer />*/}
         </SupabaseProvider>
       </body>
     </html>
